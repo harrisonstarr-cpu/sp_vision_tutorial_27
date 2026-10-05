@@ -14,7 +14,10 @@ public:
     SensorPublisher()
         : Node("sensor_publisher")
     {
-        this->declare_parameter("reliability", "best_effort");
+        // 任务一：将发布端默认可靠性改为 reliable。
+        // 原代码为 best_effort，而订阅端默认是 reliable，二者 QoS 不兼容，
+        // 会导致 subscriber 无法收到 /sensor_data 消息。
+        this->declare_parameter("reliability", "reliable");
         this->declare_parameter("depth", 10);
         this->declare_parameter("rate", 100.0);
 

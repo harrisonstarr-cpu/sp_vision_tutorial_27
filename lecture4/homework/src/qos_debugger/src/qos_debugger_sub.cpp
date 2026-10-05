@@ -19,7 +19,12 @@ public:
   {
     this->declare_parameter("reliability", "reliable");
     this->declare_parameter("depth", 10);
-    this->declare_parameter("callback_delay_ms", 30);
+
+    // 任务二：原值为 30 ms。
+    // 发布端为 100 Hz，也就是约每 10 ms 发布一条消息；若订阅回调每次都阻塞 30 ms，
+    // 订阅端处理速度会明显跟不上发布速度，队列积压后容易出现序号跳变和丢包。
+    // 因此将默认延迟改为 0 ms。
+    this->declare_parameter("callback_delay_ms", 0);
 
     reliability_ = this->get_parameter("reliability").as_string();
     depth_ = this->get_parameter("depth").as_int();
@@ -127,11 +132,34 @@ private:
         this->get_logger(),
         "累计: 收到 %u 条, 丢失 %u 条, 丢包率 %.2f%%",
         received_count_, lost_count_, loss_rate);
+    
+          // ---------------- 任务三：计算实际接收帧率 ----------------
+      // 记录本次统计时刻。
+      const auto now = std::chrono::steady_clock::now();
 
-    /*
-    在这之间加入计算帧率并打印的代码
+      // 计算距离上一次统计实际经过了多少秒。
+      // 使用真实时间差，而不是简单假设定时器一定严格等于 1.000 s。
+      const double elapsed =
+        std::chrono::duration<double>(now - last_report_time_).count();
 
-    */
+      // received_count_ 是累计值，因此需要减去上一次的累计值，
+      // 才能得到这一统计周期中新收到的消息数量。
+      const uint32_t received_since_last = received_count_ - last_received_count_;
+
+      // 帧率 = 本统计周期收到的消息数 / 实际经过时间。
+      const double fps =
+        (elapsed > 0.0) ? static_cast<double>(received_since_last) / elapsed : 0.0;
+
+      RCLCPP_INFO(
+        this->get_logger(),
+        "接收帧率: %.2f Hz",
+        fps);
+
+      // 更新基准，供下一次 report() 使用。
+      last_received_count_ = received_count_;
+      last_report_time_ = now;
+
+
   }
 
   rclcpp::Subscription<nav_hw_interfaces::msg::SensorData>::SharedPtr subscription_;
