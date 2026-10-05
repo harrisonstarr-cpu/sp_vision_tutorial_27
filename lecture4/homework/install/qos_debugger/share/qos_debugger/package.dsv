@@ -1,0 +1,8 @@
+source;share/qos_debugger/hook/cmake_prefix_path.ps1
+source;share/qos_debugger/hook/cmake_prefix_path.dsv
+source;share/qos_debugger/hook/cmake_prefix_path.sh
+source;share/qos_debugger/local_setup.bash
+source;share/qos_debugger/local_setup.dsv
+source;share/qos_debugger/local_setup.ps1
+source;share/qos_debugger/local_setup.sh
+source;share/qos_debugger/local_setup.zsh

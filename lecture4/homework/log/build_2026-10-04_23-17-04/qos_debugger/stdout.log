@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target qos_debugger_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target qos_debugger_sub[0m
+[ 75%] Built target qos_debugger_sub
+[ 75%] [32mBuilding CXX object CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable qos_debugger_pub[0m
+[100%] Built target qos_debugger_pub
+-- Install configuration: ""
+-- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_pub
+-- Set runtime path of "/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_pub" to ""
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_sub
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/ament_index/resource_index/package_run_dependencies/qos_debugger
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/ament_index/resource_index/parent_prefix_path/qos_debugger
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/path.sh
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/path.dsv
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.bash
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.sh
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.zsh
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.dsv
+-- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/package.dsv
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/ament_index/resource_index/packages/qos_debugger
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig.cmake
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig-version.cmake
+-- Up-to-date: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/package.xml

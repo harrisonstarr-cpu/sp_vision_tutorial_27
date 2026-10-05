@@ -37,7 +37,9 @@ Pipeline::Pipeline(std::unique_ptr<FrameSource> source, PipelineConfig config)
 
 Pipeline::~Pipeline()
 {
-    // TODO: Make sure Pipeline never destroys running threads.
+    // std::thread 在仍然 joinable 时析构会导致 std::terminate。
+    // wait() 内部会先等待 producer，再等待全部 worker；重复调用也是安全的。
+    wait();
 }
 
 void Pipeline::start()
@@ -81,9 +83,11 @@ void Pipeline::producerLoop()
         statistics_.onProduced();
         logLine(std::cout, "[Producer] frame " + std::to_string(frame.id));
 
-        // What's the best way to write this?
-        queue_.push(frame);
+        // BlockingQueue::push 按值接收 Frame；这里移动进去，避免不必要的额外拷贝。
+        queue_.push(std::move(frame));
     }
+    // 输入结束后关闭队列，唤醒等待中的 worker。
+    // worker 会先取完队列中已有的帧，队列为空后 pop() 才返回 false。
     queue_.close();
 }
 
@@ -122,3 +126,4 @@ void Pipeline::workerLoop(int worker_id)
         }
     }
 }
+

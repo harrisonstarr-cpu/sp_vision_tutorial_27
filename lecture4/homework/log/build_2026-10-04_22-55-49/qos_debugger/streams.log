@@ -1,0 +1,66 @@
+[0.008s] Invoking command in '/home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger': AMENT_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dqw/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger -DCMAKE_INSTALL_PREFIX=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.210s] -- Detecting CXX compile features
+[0.210s] -- Detecting CXX compile features - done
+[0.211s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.303s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.349s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.376s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.466s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.604s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.631s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.690s] -- Looking for pthread.h
+[0.779s] -- Looking for pthread.h - found
+[0.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.874s] -- Found Threads: TRUE  
+[0.958s] -- Found nav_hw_interfaces: 0.0.0 (/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake)
+[1.070s] -- Configuring done
+[1.083s] -- Generating done
+[1.088s] -- Build files have been written to: /home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger
+[1.098s] Invoked command in '/home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dqw/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger -DCMAKE_INSTALL_PREFIX=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger
+[1.100s] Invoking command in '/home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger': AMENT_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger -- -j16 -l16
+[1.167s] [ 50%] [32mBuilding CXX object CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o[0m
+[1.168s] [ 50%] [32mBuilding CXX object CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o[0m
+[3.558s] [ 75%] [32m[1mLinking CXX executable qos_debugger_pub[0m
+[3.696s] [ 75%] Built target qos_debugger_pub
+[6.769s] [100%] [32m[1mLinking CXX executable qos_debugger_sub[0m
+[6.963s] [100%] Built target qos_debugger_sub
+[6.972s] Invoked command in '/home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger -- -j16 -l16
+[6.973s] Invoking command in '/home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger': AMENT_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger
+[6.979s] -- Install configuration: ""
+[6.979s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_pub
+[6.982s] -- Set runtime path of "/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_pub" to ""
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_sub
+[6.982s] -- Set runtime path of "/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/lib/qos_debugger/qos_debugger_sub" to ""
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/ament_index/resource_index/package_run_dependencies/qos_debugger
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/ament_index/resource_index/parent_prefix_path/qos_debugger
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.sh
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.dsv
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/path.sh
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/environment/path.dsv
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.bash
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.sh
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.zsh
+[6.982s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/local_setup.dsv
+[6.983s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/package.dsv
+[6.983s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/ament_index/resource_index/packages/qos_debugger
+[6.983s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig.cmake
+[6.984s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig-version.cmake
+[6.984s] -- Installing: /home/dqw/sp_vision_tutorial_27/lecture4/homework/install/qos_debugger/share/qos_debugger/package.xml
+[6.984s] Invoked command in '/home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/dqw/sp_vision_tutorial_27/lecture4/homework/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dqw/sp_vision_tutorial_27/lecture4/homework/build/qos_debugger

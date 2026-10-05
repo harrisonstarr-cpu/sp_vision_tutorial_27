@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nav_hw_interfaces/msg/SensorData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nav_hw_interfaces {
+  module msg {
+    struct SensorData {
+      std_msgs::msg::Header header;
+
+      uint32 seq;
+
+      float distance;
+
+      sequence<float> ranges;
+    };
+  };
+};

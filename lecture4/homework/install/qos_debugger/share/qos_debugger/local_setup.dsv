@@ -1,0 +1,2 @@
+source;share/qos_debugger/environment/ament_prefix_path.sh
+source;share/qos_debugger/environment/path.sh
