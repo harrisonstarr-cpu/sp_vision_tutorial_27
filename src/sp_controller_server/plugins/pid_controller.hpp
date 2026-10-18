@@ -31,11 +31,40 @@ public:
     const geometry_msgs::msg::Twist & velocity) override;
 
 private:
+
   std::string plugin_name_;
+
   std::shared_ptr<tf2_ros::Buffer> tf_buffer_;
+
   rclcpp::Node::SharedPtr node_;
+
   nav_msgs::msg::Path global_plan_;
+
   std::string base_frame_id_;
+
+
+  // Pure Pursuit
+  double lookahead_distance_;
+
+
+  // PID
+  double kp_;
+  double ki_;
+  double kd_;
+
+  double integral_x_;
+  double integral_y_;
+
+  double last_error_x_;
+  double last_error_y_;
+
+
+  // limit
+  double max_speed_;
+
+  rclcpp::Time last_time_;
+  
+
 };
 
 }
